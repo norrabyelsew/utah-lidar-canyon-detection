@@ -1,0 +1,26 @@
+# Utah Lidar Slot Canyon Detection Tool
+## This tool allows the user select an area of land in Utah to search for potential undiscovered slot canyons based on CNN feature detection.
+- Skills I want to learn or practice
+  - Further CNN Knowledge
+  - Processing large amounts of data
+  - Lidar specific python packages
+  - Database incorporation
+  - UI incorporation?
+  - Visualization Techniques for this kind of data
+  - Data cleaning
+  - All development would apply git for testing and version control and potentially in other ways
+  - Optimize for Cuda parallel processing for speed, this may involve writing certain portions in C++
+- Tools to use
+  - Python
+  - Git
+- Steps - To-Do Items
+  - Create git repo
+  - Begin testing solely in jupyter notebook
+  - Clean data
+  - Downsample in needed for computational limitations
+  - Create CNN for feature extraction of 3d data (Convolve over 2 dimensions)
+  - Determine how to label slot canyons in a given sample - perhaps a heatmap or outline based on likelyhood
+  - Perform data augmentation by rotating labeled samples
+  - Train a regression model
+  - Test and circle back
+  - Write UI for visualizing results or uploading DEM files
