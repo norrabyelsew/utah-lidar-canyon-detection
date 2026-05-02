@@ -9,7 +9,7 @@
   - Visualization Techniques for this kind of data
   - Data cleaning
   - All development would apply git for testing and version control and potentially in other ways
-  - Optimize for Cuda parallel processing for speed, this may involve writing certain portions in C++
+  - Optimize for vectorized operations
 - Tools to use
   - Python
   - Git
