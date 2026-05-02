@@ -20,7 +20,7 @@
   - Downsample in needed for computational limitations
   - Create CNN for feature extraction of 3d data (Convolve over 2 dimensions)
   - Determine how to label slot canyons in a given sample - perhaps a heatmap or outline based on likelyhood
-  - Perform data augmentation by rotating labeled samples
+  - Perform data augmentation by rotating and potentially scaling labeled samples
   - Train a regression model
   - Test and circle back
   - Write UI for visualizing results or uploading DEM files
