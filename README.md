@@ -19,6 +19,7 @@
   - Clean data
   - Downsample in needed for computational limitations
   - Create CNN for feature extraction of 3d data (Convolve over 2 dimensions)
+  - Consider creating ViT to test against CNN, considering dataset size limitations, it may not work.
   - Determine how to label slot canyons in a given sample - perhaps a heatmap or outline based on likelyhood
   - Perform data augmentation by rotating and potentially scaling labeled samples
   - Train a regression model
